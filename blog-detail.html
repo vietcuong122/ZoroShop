@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Blog Detail</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Google Font -->
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
+<body>
+
+    <!-- Header -->
+    <header>
+
+        <!-- Header top -->
+        <div class="header-top grey lighten-2">
+            <div class="container py-2">
+                <div class="text-center">
+
+                    <span>Welcome to our store. You need help? Please call free
+                        <i class="fas fa-phone-square px-1"></i>
+                        <b style="font-weight: bold">0123-456-789</b>
+                    </span>
+
+                </div>
+            </div>
+        </div>
+        <!-- /.Header top -->
+
+
+        <!-- Middle -->
+        <div class="middle d-none d-md-block">
+            <div class="container">
+                <div class="row">
+                    <div class="middle__logo col-md-2 view overlay">
+                        <a href="index.html">
+                          <img class="img-fluid" src="img/index/Logo.png" alt="">
+                        </a>
+                      </div>
+                    <div class="col-md-10 p-0">
+                        <div class="row m-0">
+                            <div class="middle__search col-md-9 col-lg-8 col-xl-6">
+                                <div class="middle__box input-group md-form form-sm form-2 pl-0 m-0">
+                                    <input class="form-control my-0 py-1 border" type="text" placeholder="Search"
+                                        aria-label="Search">
+                                    <div class="input-group-append" style="cursor: pointer;">
+                                        <a href="product-grid.html" class="middle__button input-group-text text-white"
+                                            id="basic-text1">Search</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-lg-4 col-xl-6">
+                                <div class="row">
+                                    <div class="middle__shipping d-none d-xl-block col-xl-7">
+                                        <div class="d-flex">
+                                            <img class="middle__icon" src="img/index/ic_shipping.png" alt="">
+                                            <div class="middle__info ml-2 d-flex flex-column">
+                                                <span class="middle__title">EVERY DAY FREE SHIPPING</span>
+
+                                                <span class="middle__description">on onders over $560.00</span>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="middle__cart d-block col-xl-5">
+                                        <div class="d-flex">
+                                            <img class="middle__icon" src="img/index/ic_cart.png" alt="">
+                                            <div class="middle__info d-none ml-2 d-lg-flex flex-column">
+                                                <span class="middle__title">SHOPPING CART</span>
+
+                                                <span class="middle__description">3 items - $566.00</span>
+                                            </div>
+                                        </div>
+                                        <div class="cart-content">
+                                            <div class="cart-product d-flex border-bottom">
+                                                <img src="./img/product_grid/product_3.png" alt="">
+                                                <div class="cart-product-info">
+                                                    <p class="cart-product-name m-0">LOREM IPSUM SIT AMET</p>
+                                                    <p class="cart-product-price text-info m-0">$256.00 <i
+                                                            class="far fa-trash-alt ml-2"></i><i class="fas fa-pen"></i>
+                                                    </p>
+                                                    <span style="padding-top: 13.44px">Qty: </span>
+                                                    <input class="ml-3 cart-qty text-center"
+                                                        style="width: 45px;height: 30px" type="text" value="02">
+                                                    <button
+                                                        class="btn cart-btn-update btn-sm btn-info m-0 ml-1">UPDATE</a>
+                                                </div>
+                                            </div>
+                                            <div class="cart-product d-flex border-bottom">
+                                                <img src="./img/product_grid/product_5.png" alt="">
+                                                <div class="cart-product-info">
+                                                    <p class="cart-product-name m-0">LOREM IPSUM SIT AMET</p>
+                                                    <p class="cart-product-price text-info m-0">$256.00 <i
+                                                            class="far fa-trash-alt ml-2"></i><i class="fas fa-pen"></i>
+                                                    </p>
+                                                    <span style="padding-top: 13.44px">Qty: </span>
+                                                    <input class="ml-3 cart-qty text-center"
+                                                        style="width: 45px;height: 30px" type="text" value="02">
+                                                    <button
+                                                        class="btn cart-btn-update btn-sm btn-info m-0 ml-1">UPDATE</a>
+                                                </div>
+                                            </div>
+                                            <div class="cart-product d-flex border-bottom">
+                                                <img src="./img/product_grid/product_4.png" alt="">
+                                                <div class="cart-product-info">
+                                                    <p class="cart-product-name m-0">LOREM IPSUM SIT AMET</p>
+                                                    <p class="cart-product-price text-info m-0">$256.00 <i
+                                                            class="far fa-trash-alt ml-2"></i><i class="fas fa-pen"></i>
+                                                    </p>
+                                                    <span style="padding-top: 13.44px">Qty: </span>
+                                                    <input class="ml-3 cart-qty text-center"
+                                                        style="width: 45px;height: 30px" type="text" value="02">
+                                                    <button
+                                                        class="btn cart-btn-update btn-sm btn-info m-0 ml-1">UPDATE</a>
+                                                </div>
+
+                                            </div>
+                                            <div class="cart-total border-bottom">
+                                                <span>CART SUBTOTAL: </span>
+                                                <span class="total-value float-right">$440.00</span>
+                                            </div>
+                                            <div class="cart-btn pt-1 pb-3 mx-4">
+                                                <a href="" class="btn btn-sm btn-info">VIEW CART</a>
+                                                <a href="" class="btn btn-sm btn-info float-right">CHECKOUT</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Middle -->
+
+        <!--Navbar -->
+        <nav class="navbar navbar-expand-md navbar-dark py-0">
+            <div class="container">
+                <a class="navbar-brand d-md-none" href="index.html">
+                    <img src="./img/index/Logo-small.png" alt="">
+                </a>
+
+                <form class="form-inline d-md-none ">
+                    <input class="form-control form-control-sm mr-3 w-75" type="text" placeholder="Search"
+                        aria-label="Search">
+                    <!-- <i class="fas fa-search color-white" aria-hidden="true"></i> -->
+                </form>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent-333" aria-controls="navbarSupportedContent-333"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
+
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">HOME</a>
+                        </li>
+                        <div class=" mega-drop-down">
+                            <li class="nav-item">
+                                <a class="nav-link" href="product-grid.html">LIVING ROOM</a>
+                            </li>
+                            <div class=" mega-menu">
+                                <div class="mega-menu-wrap">
+                                    <div class="row m-0">
+                                        <div class="col-lg-6">
+                                            <div class="row h-100">
+                                                <div class="col-md-5 border-right h-100">
+                                                    <p class="row mega-title font-weight-bold">CABINET & STORAGE</p>
+                                                    <div class="mega-link">
+                                                        <a href="">Buffets & Sideboards</a>
+                                                        <a href="">China Cabinets & Curios</a>
+                                                        <a href="">Bars</a>
+                                                        <a href="">Dining Tables</a>
+                                                        <a href="">Dining Chairs</a>
+                                                        <a href="">Dining Sets</a>
+                                                        <a href="">Counter & Bar Stools</a>
+                                                        <a href="">Benches</a>
+                                                        <a href="">5 Piece Dining Sets</a>
+                                                        <a href="">6 Piece Dining Sets</a>
+                                                        <a href="">Package Specials</a>
+                                                        <a href="">Collections</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-7 border-right h-100 pl-5">
+                                                    <p class="row mega-title font-weight-bold">SMALL APPLIANCES</p>
+                                                    <div class="mega-link">
+                                                        <a href="">Cabinet Organization</a>
+                                                        <a href="">Cutting Boards</a>
+                                                        <a href="">Refrigerators</a>
+                                                    </div>
+                                                    <p class="row mega-title font-weight-bold mt-4">CUTLERY & PREP</p>
+                                                    <div class="mega-link">
+                                                        <a href="">Knives</a>
+                                                        <a href="">Cast Iron Skillets</a>
+                                                        <a href="">Microwaves</a>
+                                                        <a href="">Baking Sheets</a>
+                                                        <a href="">Springform Pans</a>
+                                                        <a href="">Cooking Utensils</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 position-relative">
+                                            <img class="width-100 ml-4" src="./img/index/mega_banner.png" alt="">
+                                            <div class="mega-image-text">
+                                                <p class="bg-warning">CHAIR</p>
+                                            </div>
+                                            <div class="mega-image-text" id="mega-text-2">
+                                                <p class="bg-warning">2018 COLEECTION</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="product-grid.html">BEDROOM</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="product-grid.html">BATHROOM</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="product-grid.html">KITCHEN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="product-grid.html">BOOKCASE</a>
+                        </li>
+
+                    </ul>
+
+                    <ul class="navbar-nav ml-auto nav-flex-icons">
+                        <li class="nav-item">
+                            <a class="nav-link waves-effect waves-light">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link waves-effect waves-light">
+                                <i class="fab fa-google-plus-g"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-user"></i>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right dropdown-default"
+                                aria-labelledby="navbarDropdownMenuLink-333">
+                                <a class="dropdown-item" href="#"><i class="fas fa-user-alt pr-2"></i>My Account</a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-heart pr-2"></i>My Wishlish</a>
+                                <a class="dropdown-item" href="#"><i class="far fa-check-square pr-2"></i>Checkout</a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-sign-out-alt pr-2"></i>Signout</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--/.Navbar -->
+    </header>
+    <!--/. Header -->
+
+    <!-- Main -->
+    <main>
+
+        <!-- Title -->
+        <div class="product-grid__title" style="background-image: url(./img/index/slide1.png);">
+            <div class="mask rgba-black-strong w-100 h-100"></div>
+            <div class="title-content text-white text-center">
+                <h2 class="h2-responsive">NEWS IN OUR STORE</h2>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb d-flex justify-content-center" style="background-color: transparent;">
+                        <li class="breadcrumb-item"><a class="text-white" href="index.html">Home</a></li>
+                        <li class="breadcrumb-item text-white">Blog</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+        <!-- ./Title -->
+
+        <!-- Blog List -->
+        <div class="product-grid pb-4" style="padding-top:20px">
+            <div class="container">
+                <div class="row">
+                    <!-- Sidebar -->
+                    <div class="side-bar col-lg-3 col-md-4 p-0 d-none d-md-block">
+                        <div style="background-color: #eeeeee; font-size: 14px;">
+                            <h4 class="h4-responsive bg-dark text-white pl-4 py-2">CATEGORIES</h4>
+                            <div class="blog-category px-4 py-2">
+                                <div class="row m-0 py-2">
+                                    <div id="diamond"></div><a href="" class="ml-2 text-dark"
+                                        style="margin-top: -3px">Consectetuer adipiscing</a>
+                                </div>
+                                <div class="row m-0 py-2">
+                                    <div id="diamond"></div><a href="" class="ml-2 text-dark"
+                                        style="margin-top: -3px">Aliquam eu felis</a>
+                                </div>
+                                <div class="row m-0 py-2">
+                                    <div id="diamond"></div><a href="" class="ml-2 text-dark"
+                                        style="margin-top: -3px">Nullam vel erat</a>
+                                </div>
+                                <div class="row m-0 py-2">
+                                    <div id="diamond"></div><a href="" class="ml-2 text-dark"
+                                        style="margin-top: -3px">Integer interdum sem</a>
+                                </div>
+                                <div class="row m-0 py-2">
+                                    <div id="diamond"></div><a href="" class="ml-2 text-dark"
+                                        style="margin-top: -3px">Luctus lacus quam sit amet</a>
+                                </div>
+                                <div class="row m-0 py-2">
+                                    <div id="diamond"></div><a href="" class="ml-2 text-dark"
+                                        style="margin-top: -3px">Auctor mauris a luctus</a>
+                                </div>
+                                <div class="row m-0 pt-2 pb-4">
+                                    <div id="diamond"></div><a href="" class="ml-2 text-dark"
+                                        style="margin-top: -3px">Interdum sem ac magna</a>
+                                </div>
+                            </div>
+                            <h4 class="h4-responsive bg-dark text-white pl-4 py-2">ARCHIVES</h4>
+                            <div class="blog-achives px-4 py-2">
+                                <div class="row m-0 py-2">
+                                    <div id="diamond"></div><a href="" class="ml-2 text-dark"
+                                        style="margin-top: -3px">January 2020</a>
+                                </div>
+                                <div class="row m-0 py-2">
+                                    <div id="diamond"></div><a href="" class="ml-2 text-dark"
+                                        style="margin-top: -3px">December 2019</a>
+                                </div>
+                                <div class="row m-0 py-2">
+                                    <div id="diamond"></div><a href="" class="ml-2 text-dark"
+                                        style="margin-top: -3px">November 2019</a>
+                                </div>
+                                <div class="row m-0 py-2">
+                                    <div id="diamond"></div><a href="" class="ml-2 text-dark"
+                                        style="margin-top: -3px">October 2019</a>
+                                </div>
+                                <div class="row m-0 py-2">
+                                    <div id="diamond"></div><a href="" class="ml-2 text-dark"
+                                        style="margin-top: -3px">September 2019</a>
+                                </div>
+                                <div class="row m-0 py-2">
+                                    <div id="diamond"></div><a href="" class="ml-2 text-dark"
+                                        style="margin-top: -3px">August 2019</a>
+                                </div>
+                                <div class="row m-0 pt-2 pb-4">
+                                    <div id="diamond"></div><a href="" class="ml-2 text-dark"
+                                        style="margin-top: -3px">July 2019</a>
+                                </div>
+                            </div>
+                            <h4 class="h4-responsive bg-dark text-white pl-4 py-2">TAGS</h4>
+                            <div class="blog-tags px-4 py-2 d-flex flex-wrap">
+                                <p class="tag-element">donec</p>
+                                <p class="tag-element">commod</p>
+                                <p class="tag-element">nibh</p>
+                                <p class="tag-element">vehicula</p>
+                                <p class="tag-element">tristique</p>
+                                <p class="tag-element">consider</p>
+                                <p class="tag-element">phasellus</p>
+                                <p class="tag-element">doraemon</p>
+                                <p class="tag-element">dora</p>
+                                <p class="tag-element">nobita</p>
+                                <p class="tag-element">adipiscing</p>
+                            </div>
+                        </div>
+                        <!-- Sidebar Latest Post -->
+                        <div class="blog-latest-post mt-4" style=" font-size: 14px;">
+                            <h4 class="h4-responsive bg-dark text-white pl-4 py-2">LATEST POST</h4>
+                            <div class="latest-post__post">
+                                <div class="row d-flex m-0">
+                                    <div class="col-5 view overlay p-0">
+                                        <img class="w-100 h-100 hoverable" src="./img/index/our_product_banner_1.png"
+                                            alt="">
+                                        <a href="blog-detail.html">
+                                            <div class="mask rgba-white-slight"></div>
+                                        </a>
+                                    </div>
+                                    <div class="col-7 pt-0 text-left pr-0">
+                                        <p class="mb-0">Lorem ipsum con stetuer adi piscing</p>
+                                        <p class="mb-0 pt-2"><i class="far fa-calendar-check mr-2"></i>09/07/2019</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="latest-post__post pt-2">
+                                <div class="row d-flex m-0">
+                                    <div class="col-5 view overlay p-0">
+                                        <img class="w-100 h-100 hoverable" src="./img/index/our_product_banner_2.png"
+                                            alt="">
+                                        <a href="blog-detail.html">
+                                            <div class="mask rgba-white-slight"></div>
+                                        </a>
+                                    </div>
+                                    <div class="col-7 pt-0 text-left pr-0">
+                                        <p class="mb-0">Lorem ipsum con stetuer adi piscing</p>
+                                        <p class="mb-0 pt-2"><i class="far fa-calendar-check mr-2"></i>09/07/2019</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="latest-post__post pt-2">
+                                <div class="row d-flex m-0">
+                                    <div class="col-5 view overlay p-0">
+                                        <img class="w-100 h-100 hoverable" src="./img/index/our_product_banner_4.png"
+                                            alt="">
+                                        <a href="blog-detail.html">
+                                            <div class="mask rgba-white-slight"></div>
+                                        </a>
+                                    </div>
+                                    <div class="col-7 pt-0 text-left pr-0">
+                                        <p class="mb-0">Lorem ipsum con stetuer adi piscing</p>
+                                        <p class="mb-0 pt-2"><i class="far fa-calendar-check mr-2"></i>09/07/2019</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="latest-post__post pt-2">
+                                <div class="row d-flex m-0">
+                                    <div class="col-5 view overlay p-0">
+                                        <img class="w-100 h-100 hoverable" src="./img/index/our_product_banner_5.png"
+                                            alt="">
+                                        <a href="blog-detail.html">
+                                            <div class="mask rgba-white-slight"></div>
+                                        </a>
+                                    </div>
+                                    <div class="col-7 pt-0 text-left pr-0">
+                                        <p class="mb-0">Lorem ipsum con stetuer adi piscing</p>
+                                        <p class="mb-0 pt-2"><i class="far fa-calendar-check mr-2"></i>09/07/2019</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="latest-post__post pt-2">
+                                <div class="row d-flex m-0">
+                                    <div class="col-5 view overlay p-0">
+                                        <img class="w-100 h-100 hoverable" src="./img/index/our_product_banner_1.png"
+                                            alt="">
+                                        <a href="blog-detail.html">
+                                            <div class="mask rgba-white-slight"></div>
+                                        </a>
+                                    </div>
+                                    <div class="col-7 pt-0 text-left pr-0">
+                                        <p class="mb-0">Lorem ipsum con stetuer adi piscing</p>
+                                        <p class="mb-0 pt-2"><i class="far fa-calendar-check mr-2"></i>09/07/2019</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ./Sidebar -->
+
+                    <!-- Main Blogs Grid -->
+                    <div class="col-lg-9 col-md-8 pl-4" style="font-size: 14px; color: #666666;">
+                        <!-- Posts -->
+                        <div class="post-detail border-bottom">
+                            <p class="font-weight-bold m-0 pt-2 pb-1" style="font-size: 15px;">LOREM IPSUM
+                                DOLOR SIT AMET, CONSECTETUER ADIPISCING ELIT</p>
+                            <p class="mb-0 py-2"><i class="far fa-calendar-check mr-2"></i><span id="post-day"
+                                    class="pr-2">09/07/2019</span> - <i class="fas fa-user mx-2"></i>
+                                Post by: <span id="post-author" class="pl-1 pr-2">Admin</span>-<i
+                                    class="fas fa-comment mx-2"></i><span class="pr-1"
+                                    id="comment-count pr-1">5</span>Comment(s)</p>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Integer interdum
+                                sem ac magna. Integer in lectus sed ligula commodo commodo. In molestie,
+                                neque et porta lobortis, ligula sem auctor maruis Lorem ipsum dolor sit amet,
+                                consectetuer
+                                adipiscing elit. Integer interdum
+                                sem ac magna. Integer in lectus sed ligula commodo commodo. In molestie,
+                                neque et porta lobortis, ligula sem auctor maruis</p>
+                            <div class="view overlay">
+                                <img src="./img/blog-page/Image.png" class="img-fluid"
+                                    alt="Sample image with waves effect.">
+                                <a href="product-page.html">
+                                    <div class="mask waves-effect waves-light rgba-white-slight"></div>
+                                </a>
+                            </div>
+                            <div class="mt-4">Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt
+                                tofu stumptown aliqua,
+                                retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica.
+                                Reprehenderit butcher retro keffiyeh dreamcatcher synth. <br>
+                                <i class="fas fa-check mt-3 pr-2 pl-4"></i>Nullam tellus pede, eleifend posuere <br>
+                                <i class="fas fa-check mt-2 pr-2 pl-4"></i>Pellentesque vel mauris <br>
+                                <i class="fas fa-check mt-2 pr-2 pl-4"></i>Estibulum a risus at onci egestas
+                                condimentum<br>
+                                <i class="fas fa-check mt-2 pr-2 pl-4"></i>Suspendisse sit amet turpis in mauris<br>
+                                <p class="mt-3">Food truck fixie
+                                    locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation
+                                    +1
+                                    labore velit,
+                                    blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table
+                                    craft
+                                    beer twee.</p>
+                                <p>
+                                    Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar
+                                    helvetica VHS
+                                    salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum
+                                    wes
+                                    anderson 8-bit,
+                                    sustainable Homo nostrud organic, assumenda labore aesthetic magna delectus mollit.
+                                    Keytar helvetica VHS
+                                    salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum
+                                    wes
+                                    anderson 8-bit,
+                                    sustainable
+                                </p>
+                            </div>
+
+                        </div>
+                        <!-- ./Posts -->
+                        <!-- Comment -->
+                        <div class="post-comment py-2">
+                            <div class="m-0">
+                                <div class="btn-group pt-2" role="group" aria-label="Basic example">
+                                    <button type="button" class="btn btn-so py-2 px-3 mr-2"
+                                        style="background: #0d47a1;color:white">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </button>
+                                    <button type="button" class="btn btn-so py-2 px-3 mr-2"
+                                        style="background: #e53935;color:white">
+                                        <i class="fab fa-google-plus-g"></i>
+                                    </button>
+                                    <button type="button" class="btn btn-so py-2 px-3 mr-2"
+                                        style="background: #0099CC;color:white">
+                                        <i class="fab fa-twitter"></i>
+                                    </button>
+                                    <button type="button" class="btn btn-so py-2 px-3 mr-2"
+                                        style="background: rgba(156, 39, 176, 0.7);color:white">
+                                        <i class="fab fa-flickr"></i>
+                                    </button>
+                                    <button type="button" class="btn btn-so py-2 px-3 mr-2"
+                                        style="background: rgba(255, 152, 0, 0.3) ;color:white">
+                                        <i class="fab fa-instagram"></i>
+                                    </button>
+                                </div>
+                                <div class="float-left float-lg-right pt-2">
+                                    <a style="color:#666666" href=""><i class="fas fa-pencil-alt mr-2"></i>Write your
+                                        comment</a>
+                                    <a style="color:#666666" class="ml-3" href=""><i class="fas fa-print mr-2"></i>Print
+                                        this page</a>
+                                </div>
+                            </div>
+                            <div class="comment mt-5">
+                                <div class="client row m-0 d-flex">
+                                    <div class="col-1 p-0">
+                                        <img src="./img/blog-page/client-1.png" alt="">
+                                    </div>
+                                    <div class="col-11 pr-0 pl-5">
+                                        <div class="client-info p-3">
+                                            <div class="top-info border-bottom w-100">
+                                                <span class="client-name font-weight-bold"
+                                                    style="font-size: 15px;color:#424242">JONE DOE</span>
+                                                <span class="comment-day float-right">12/07/2019</span>
+                                            </div>
+                                            <p class="pt-3 m-0">Lorem ipsum dolor sit amet, consectetuer adipiscing
+                                                elit.
+                                                Integer interdum
+                                                sem ac magna. Integer in lectus sed ligula commodo commodo. In
+                                                molestie,
+                                                neque et porta lobortis</p>
+
+                                            <p class="d-block m-0 py-2"><i class="far fa-thumbs-up mr-2"></i>9 likes -
+                                                <span id="comment-rep">7 comment
+                                                    <i class="fas fa-angle-down ml-2"></i>
+                                                </span>
+                                            </p>
+                                            <button style="background:#333333; color:white;font-size: 12px"
+                                                class="btn btn-sm m-0">Reply</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="client row m-0 mt-3 d-flex">
+                                    <div class="col-1 p-0">
+                                        <img src="./img/blog-page/client-2.png" alt="">
+                                    </div>
+                                    <div class="col-11 pr-0 pl-5">
+                                        <div class="client-info p-3">
+                                            <div class="top-info border-bottom w-100">
+                                                <span class="client-name font-weight-bold"
+                                                    style="font-size: 15px;color:#424242">JONE DOE</span>
+                                                <span class="comment-day float-right">12/07/2019</span>
+                                            </div>
+                                            <p class="pt-3 m-0">Lorem ipsum dolor sit amet, consectetuer adipiscing
+                                                elit.
+                                                Integer interdum
+                                                sem ac magna. Integer in lectus sed ligula commodo commodo. In
+                                                molestie,
+                                                neque et porta lobortis</p>
+
+                                            <p class="d-block m-0 py-2"><i class="far fa-thumbs-up mr-2"></i>9 likes -
+                                                <span id="comment-rep">7 comment
+                                                    <i class="fas fa-angle-down ml-2"></i>
+                                                </span>
+                                            </p>
+                                            <button style="background:#333333; color:white;font-size: 12px"
+                                                class="btn btn-sm m-0">Reply</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="w-100 text-right pt-3">
+                                    Page:
+                                    <a style="border-bottom:1px solid #666666" href="">01</a>
+                                    <a href="">02</a>
+                                    <a href="">03</a>
+                                    <a href="">04</a>
+                                    <a href="">05</a>
+                                </div>
+                                <div class="pb-5">
+                                    <h4 class="h4-responsive font-weight-bold pt-3" style="color:#424242"><span
+                                            style="border-bottom:2px solid #666666">WRIT</span>E YOUR COMMENT</h4>
+                                    <div class="row m-0">
+                                        <div class="col-xl-4 col-md-6 pt-3">
+                                            <input class="form-control" type="text" placeholder="Your name">
+                                        </div>
+                                        <div class="col-xl-4 col-md-6 pt-3">
+                                            <input class="form-control" type="text" placeholder="Your phone">
+                                        </div>
+                                        <div class="col-xl-4 pt-3 pr-0">
+                                            <input class="form-control" type="text" placeholder="Your email">
+                                        </div>
+                                    </div>
+                                    <div class="form-group shadow-textarea pr-0" style="padding:15px 15px">
+                                        <textarea id="form-comment" class="form-control z-depth-1"
+                                            id="exampleFormControlTextarea6" rows="3"
+                                            placeholder="Your comment..."></textarea>
+                                    </div>
+                                    <button style="background:#333333; color:white;font-size: 12px"
+                                        class="btn btn-md m-0 float-right">Submit</button>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                        <!-- ./Comment -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ./Product List -->
+
+
+    </main>
+    <!-- /.Main -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="main-footer py-3 text-light">
+            <div class="container">
+                <div class="row d-flex">
+                    <div class="col-xl-3 col-md-5 pt-3 main-footer__first">
+                        <h5 class="h5-responsive">STORE LOCATIONS</h5>
+                        <p style="font-size: 14px">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.Integer
+                            interdum sem ac
+                            magna</p>
+                        <p style="font-size: 14px">Address: Binh Tan Distrist, HCM City <br>
+                            Email: cuongnv230796@gmail <br>
+                            Phone: (+84)399 518 248
+                        </p>
+                        <button class="btn btn-outline-white">CONTACT US</button>
+                    </div>
+
+                    <div class="col-xl-5 col-md-7 pt-3">
+                        <div class="row">
+                            <div class="col-6">
+                                <h5 class="h5-responsive">OUR SERVICE</h5>
+                                <div class="footer-link nav d-flex flex-column text-light pl-0" style="font-size: 14px">
+                                    <a class="nav-link text-light pl-0 border-top-0" href="#">Free Shipping</a>
+                                    <a class="nav-link text-light pl-0" href="#">Delivery Infomation</a>
+                                    <a class="nav-link text-light pl-0" href="#">Order Tracking</a>
+                                    <a class="nav-link text-light pl-0" href="#">Gift Cart</a>
+                                    <a class="nav-link text-light pl-0" href="#">Privacy Policy</a>
+                                    <a class="nav-link text-light pl-0 border-bottom-0" href="#"></a>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <h5 class="h5-responsive">MY ACCOUNT</h5>
+                                <div class="footer-link nav d-flex flex-column text-light pl-0" style="font-size: 14px">
+                                    <a class="nav-link text-light pl-0 border-top-0" href="#">Login or Register</a>
+                                    <a class="nav-link text-light pl-0" href="#">Account Information</a>
+                                    <a class="nav-link text-light pl-0" href="#">Forgot Password</a>
+                                    <a class="nav-link text-light pl-0" href="#">Order Listing</a>
+                                    <a class="nav-link text-light pl-0" href="#">Delete Your Account</a>
+                                    <a class="nav-link text-light pl-0 border-bottom-0" href="#"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 d-none d-xl-block pt-3">
+                        <h5 class="h5-responsive">INSTAGRAM</h5>
+                        <div class="instagram d-flex flex-wrap justify-content-between">
+                            <img style="flex: 1 0 25%; margin:5px;" src="./img/index/footer_instagram_1.png" alt="">
+                            <img style="flex: 1 0 25%; margin:5px;" src="./img/index/footer_instagram_2.png" alt="">
+                            <img style="flex: 1 0 25%; margin:5px;" src="./img/index/footer_instagram_3.png" alt="">
+                            <img style="flex: 1 0 25%; margin:5px;" src="./img/index/footer_instagram_4.png" alt="">
+                            <img style="flex: 1 0 25%; margin:5px;" src="./img/index/footer_instagram_5.png" alt="">
+                            <img style="flex: 1 0 25%; margin:5px;" src="./img/index/footer_instagram_6.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="category d-none d-xl-block py-4">
+            <div class="container">
+                <div class="living-room d-flex text-light" style="font-size: 14px;">
+                    <b style="font-size: 16px"> LIVING ROOM: </b>
+                    <a class="px-3 text-light border-left-0" href="product-grid.html">Bedroom Mirrors</a>
+                    <a class="px-3 text-light" href="product-grid.html">Mattresses</a>
+                    <a class="px-3 text-light" href="product-grid.html">Dressers</a>
+                    <a class="px-3 text-light" href="product-grid.html">Dining Sets</a>
+                    <!-- <a class="px-3 text-light" href="">Kitchen Furniture</a> -->
+                    <a class="px-3 text-light" href="product-grid.html">Commercial Office</a>
+                    <a class="px-3 text-light" href="product-grid.html">Bathroom Shelving</a>
+                    <a class="px-3 text-light" href="product-grid.html">Chairs</a>
+                    <a class="px-3 text-light border-right-0">View All</a>
+                </div>
+                <div class="living-room d-flex text-light pt-2" style="font-size: 14px;">
+                    <b style="font-size: 16px"> BED ROOM: </b>
+                    <a class="px-3 text-light border-left-0" href="product-grid.html">Air Beds</a>
+                    <a class="px-3 text-light" href="product-grid.html">Armoires</a>
+                    <a class="px-3 text-light" href="product-grid.html">Headboards</a>
+                    <a class="px-3 text-light" href="product-grid.html">Chests & Dressers</a>
+                    <a class="px-3 text-light" href="product-grid.html">Sofa</a>
+                    <a class="px-3 text-light" href="product-grid.html">Lamps</a>
+                    <a class="px-3 text-light" href="product-grid.html">Offices</a>
+                    <a class="px-3 text-light" href="product-grid.html">Furniture</a>
+                    <a class="px-3 text-light border-right-0"></a>
+                </div>
+                <div class="living-room d-flex text-light pt-2" style="font-size: 14px;">
+                    <b style="font-size: 16px"> BATHROOM: </b>
+                    <a class="px-3 text-light border-left-0" href="product-grid.html">Bedroom Mirrors</a>
+                    <a class="px-3 text-light" href="product-grid.html">Dressers</a>
+                    <a class="px-3 text-light" href="product-grid.html">Dining Sets</a>
+                    <a class="px-3 text-light" href="product-grid.html">Kitchen Furniture</a>
+                    <a class="px-3 text-light" href="product-grid.html">Sofa</a>
+                    <a class="px-3 text-light" href="product-grid.html">Commercial Office</a>
+                    <a class="px-3 text-light" href="product-grid.html">Chairs</a>
+                    <a class="px-3 text-light border-right-0">View All</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer-bottom py-2 text-light text-center" style="font-size: 14px">
+            Zoro Store © 2015 Demo Store. All Rights Reserved.
+        </div>
+    </footer>
+    <!-- /.Footer -->
+
+    <!-- SCRIPTS -->
+
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+
+    <script>
+        function rangeSlider(value) {
+            document.getElementById('rangeValue').innerHTML = value;
+        }
+        $(document).ready(function () {
+
+            $(".color-selected").click(function (e) {
+                e.preventDefault;
+                var slide = document.getElementsByClassName("color-selected");
+                for (let i = 0; i < slide.length; i++) {
+                    slide[i].classList.remove("selected");
+                }
+                $(this).addClass("selected");
+            })
+            $(".cart-qty").click(function () {
+                var btn_update = document.getElementsByClassName("cart-btn-update");
+                console.log(btn_update);
+                for (let i = 0; i < btn_update.length; i++) {
+                    btn_update[i].classList.remove("btn-show");
+                }
+                $(this).next().addClass("btn-show");
+            })
+            $(".cart-btn-update").click(function () {
+                this.classList.remove("btn-show");
+            })
+        })
+    </script>
+
+</body>
+
+</html>
